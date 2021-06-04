@@ -1,0 +1,48 @@
+body{
+  background-color: antiquewhite;
+}
+
+.text .title_text{
+  display: grid;
+  text-align: center;
+  font-size: 45px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.text .machines_combination {
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 60px 60px 60px;
+    grid-gap: 10px;
+    padding: 1%;
+    margin: 2% 20%;
+    background-color: #caffff;
+    border-radius: 40px;
+    border: 30px solid;
+    border-color: #80ffff;
+}
+
+.btn {
+  text-align: center;
+  font-size: 25px
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  border: solid 2px #67b0ff;
+  border-radius: 3px;
+  background-color: #67b0ff;
+  transition: .3s;
+}
+
+.btn-flat-border:hover {
+  border: solid 2px #67c5ff;
+  background: #67c5ff;
+  color: white;
+}
