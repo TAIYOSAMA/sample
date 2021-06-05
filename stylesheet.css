@@ -1,48 +1,67 @@
-body{
-  display: grid;
+html {
+  height: 99%;
   background-color: antiquewhite;
 }
 
-.text .title_text{
+body {
+  height: 99%;
   display: grid;
-  text-align: center;
-  font-size: 45px;
-  padding: 10px;
-  margin: 30px;
+  grid-template-rows: 4fr 16fr 3fr;
+  gap: 5%;
 }
 
-.text .machines_combination {
-    display: grid;
-    text-align: center;
-    font-size: 30px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 60px 60px 60px 60px;
-    grid-gap: 10px;
-    padding: 1%;
-    margin: 2% 20%;
-    background-color: #caffff;
-    border-radius: 40px;
-    border: 30px solid;
-    border-color: #80ffff;
+.title {
+  text-align: center;
+  font-size: 4vw;
+  margin: auto 30%;
+  background-color: #caffff;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #000000;
+}
+
+.machine_display {
+  height: 95%;
+  margin: 0% 20%;
+  padding: 1%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5%;
+  box-sizing: border-box;
+  text-align: center;
+  place-items: center;
+  font-size: 3vw;
+  background-color: #caffff;
+  border-radius: 40px;
+  border: 2vh solid;
+  border-color: #80ffff;
 }
 
 .btn {
+  display: grid;
   text-align: center;
-  font-size: 25px
+  place-items: center;
+  font-size: 2.5vw;
 }
 
-.btn-flat-border {
+.btn a {
   display: inline-block;
-  padding: 1%;
+  height: 70%;
+  width: 30%;
+  margin: auto 15%;
+  padding: auto 5%;
+  box-sizing: border-box;
   text-decoration: none;
   color: white;
   border: solid 2px #67b0ff;
   border-radius: 3px;
   background-color: #67b0ff;
   transition: .3s;
+  display: grid;
+  place-items: center;
 }
 
-.btn-flat-border:hover {
+.btn a:hover {
   border: solid 2px #67c5ff;
   background: #67c5ff;
   color: white;
